@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div > p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+    overflow-y: hidden;
+}
+#cab{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #6441a5;
+    border-bottom: solid black 1px;
+    
+
+}
+
+#gb{
+    margin: 10px;
+    font-size: 18px;
+
+}
+#main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#box1{
+    width: 100%;
+    height: 35%;
+}
+
+#box2{
+    width: 100%;
+    height: 65%;
+
+}
+
+#foto{
+    border-radius: 300px;
+    width: 170px;
+    height:180px;
+    border: indigo solid 1px;
+    
+
+}
+#box3{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box4{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+
+
+}
+#pt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:65%;
+}
+
+
+#ct2{
+    width: 65vw;
+    height: 85vh;
+    background-color: #b9a3e3;
+    border-radius: 10px;
+    border: solid 1px indigo;
+    
+}
+
+#rdp{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:  #6441a5;
+    border-top: black solid 1px;
+
+}
+.insta{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin: 5px;
+}
+.insta2{
+    width: 30px;
+    margin: 5px;
+}
+.insta3{
+    text-decoration: none;
+    color: black;
+
+}
+.insta4{
+    width: 25px;
+    margin: 5px;
+}
+
+#p1{
+    font-size: 30px;
+    color: red;
+    text-shadow:0.1em 0.1em 0.2em rgb(30, 30, 30);
+    
+}
+.p2{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#p3{
+    font-size: 30px;
+    color: red;
+    text-shadow:0.1em 0.1em 0.2em rgb(30, 30, 30);
+}
